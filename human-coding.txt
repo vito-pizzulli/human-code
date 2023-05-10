@@ -1,0 +1,69 @@
+HUMAN CODING - Esercizio 5 - Comprare qualcosa su Amazon - Il regalo perfetto
+
+Domani è il compleanno di Silvia e non le ho ancora comprato nulla! Mi piacerebbe sorprenderla, so che le piaceva tanto quella lampada da tavolo così particolare, però la consegna non è Prime e non arriverebbe mai in tempo! Potrei optare per una bella stilografica ma sicuramente sforo il budget, forse è meglio optare per un buon libro: un classico ma so che con lei vado sul sicuro!
+
+Requisiti
+1) Il prodotto deve essere disponibile per l'acquisto su Amazon;
+2) Deve essere disponibile la spedizione Prime altrimenti non arriverebbe in tempo per il compleanno;
+3) Il costo del prodotto deve essere inferiore al mio budget.
+
+
+
+1. - Creo una lista inserendo i prodotti desiderati da Silvia;
+		- Prodotti inseriti nella lista (3):
+			-Lampada da tavolo, Penna stilografica, Libro.
+   - Apro il browser;
+   - Digito l'url di Amazon.it aprendo il sito.
+		
+	2. - La lista dei prodotti ha almeno un prodotto presente al suo interno?
+		SI - Estraggo il primo prodotto presente nella lista e vado al punto 3.
+		NO - Decido di comprare un Buono Amazon, passo al punto 11.
+
+	3. - Inserisco nell'input di ricerca il nome del prodotto selezionato;
+	   - Clicco su "Cerca";
+	   - Il prodotto compare ed è di conseguenza disponibile?
+	        SI - Vado avanti al punto 4.
+	        NO - Elimino il prodotto dalla lista e torno al punto 2.
+	
+	4. - Apro la pagina del prodotto.
+	   	4.a - Il prodotto ha la Spedizione Prime E ha un prezzo più basso rispetto al mio budget?
+	        SI - Vado avanti al punto 5.
+	        NO - Elimino il prodotto dalla lista e vado al punto 4.b.
+
+		4.b - Voglio continuare a cercare?
+			SI - Torno al punto 2.
+			NO - Decido di comprare un Buono Amazon, passo al punto 9.
+
+5. - Avendo trovato un prodotto che rispetta i requisiti, termino la ricerca.
+   - Aggiungo il prodotto in questione al carrello.
+
+   - L'indirizzo presente è quello corretto?
+	SI - Vado avanti al punto 6.
+    	NO - Inserisco l'indirizzo corretto e vado avanti al punto 6.
+
+6. - Apro il modulo di pagamento.
+   - La carta salvata nell'account è quella corretta?
+    	SI - Vado avanti al punto 7.
+    	NO - Inserisco i dati corretti della carta e vado avanti al punto 7.
+
+7. - Clicco su "Acquista".
+   - Il pagamento è stato confermato senza errori?
+    	SI - Vado avanti al punto 8.
+   	NO - Non ci sono soldi sulla carta, non compro nulla, invento una scusa e non vado al compleanno. Termine del programma.
+
+8. - Attendiamo l'arrivo del corriere con il regalo.
+    - Il pacco arriva a casa in tempo per il compleanno?
+	SI - Vado al compleanno. Termine del programma.
+	NO - Invento una scusa e non vado al compleanno. Termine del programma.
+
+9. - Inserisco un Buono Amazon nel carrello scegliendo l'importo in base al mio budget massimo.
+    - Apro il modulo di pagamento.
+    - La carta salvata nell'account è quella corretta?
+    	SI - Vado avanti al punto 10.
+    	NO - Inserisco i dati corretti della carta e vado avanti al punto 10.
+
+10. - Clicco su "Acquista".
+
+    - Il pagamento è stato confermato senza errori e di conseguenza il Buono è arrivato via mail?
+    	SI - Stampo il Buono Amazon confezionandolo come regalo e vado al compleanno. Termine del programma.
+   	NO - Non ci sono soldi sulla carta, non compro nulla, invento una scusa e non vado al compleanno. Termine del programma.
